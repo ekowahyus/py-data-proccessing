@@ -4,3 +4,9 @@
 - pip -> sudo easy_install pip
 - pandas -> pip install pandas
 - xlrd-1.2.0 -> pip install xlrd-1.2.0
+
+### How To Run:
+
+> python app.py
+
+then will generate the result on folder `result/`
