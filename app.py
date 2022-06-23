@@ -27,10 +27,6 @@ for trx_code_db in data_db:
 
 different_data = diff_element(trx_code_list_excel, trx_code_list_db)
 
-isFileExist = os.path.exists(FILE_PATH_RESULT)
-
-if not isFileExist:
-    os.makedirs(FILE_PATH_RESULT)
-    dictionaries = {'Transaction Code': different_data}
-    data_frame = pd.DataFrame(dictionaries)
-    data_frame.to_csv('result/different_data.csv', index=False)
+dictionaries = {'Transaction Code': different_data}
+data_frame = pd.DataFrame(dictionaries)
+data_frame.to_csv('result/different_data-qa.csv', index=False)

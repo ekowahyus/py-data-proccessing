@@ -1,9 +1,11 @@
 ### Requirement:
 
-- python v2.7 -> https://www.python.org/downloads/
+- python v3.9 -> https://www.python.org/downloads/
 - pip -> sudo easy_install pip
 - pandas -> pip install pandas
-- xlrd-1.2.0 -> pip install xlrd-1.2.0
+- openpyxl
+- pymongo-3.12.3
+- "pymongo[srv]"
 
 ### How To Run:
 
